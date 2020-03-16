@@ -1,6 +1,5 @@
 pool:
   name: Azure Pipelines
-  vmImage: ubuntu-16.04
-  
+  vmImage: ubuntu-16.04 
 steps:
 - template: agent.yml
